@@ -15,11 +15,11 @@ This project was developed within a short time frame to explore building a compl
 
 - 🎯 Multiple difficulty levels (Easy, Medium, Hard)  
 - 🖼️ Image-based player guessing  
+- ⏱️ Timer-based questions with automatic progression on timeout  
 - ✅ Smart answer validation (handles minor spelling variations)  
 - 📊 Score tracking with instant feedback  
 - 🎨 Cricket-themed UI inspired by Chennai Super Kings  
-- 🌍 Web deployment for cross-platform access (Android & iOS compatible)  
-
+- 🌍 Web deployment for cross-platform access (Android & iOS compatible)
 ---
 
 ## 🧠 Tech Stack
@@ -58,12 +58,15 @@ To run this project locally:
 flutter pub get
 flutter run
 
-📌 Future Improvements
-Add more players and expand dataset
-Improve UI/UX design
-Add leaderboard or scoring history
-Introduce additional game modes
-💡 About the Project
+📌 Future Improvements:
+
+- Add more players and expand dataset
+- Improve UI/UX design
+- Add leaderboard or scoring history
+- Introduce additional game modes
+- Improve timer UX with visual countdown indicators
+
+💡 About the Project:
 
 This project was built as a quick challenge to create a simple, engaging game experience around cricket knowledge.
 
