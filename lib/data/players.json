@@ -1,0 +1,284 @@
+{
+  "players": [
+    {
+      "id": 1,
+      "name": "Steve Smith",
+      "imageUrl": "images/players/steve_smith.jpg",
+      "difficulty": "easy",
+      "country": "Australia"
+    },
+    {
+      "id": 2,
+      "name": "Ben Stokes",
+      "imageUrl": "images/players/ben_stokes.jpg",
+      "difficulty": "easy",
+      "country": "England"
+    },
+    {
+      "id": 3,
+      "name": "Virat Kohli",
+      "imageUrl": "images/players/virat_kohli.jpg",
+      "difficulty": "easy",
+      "country": "India"
+    },
+    {
+      "id": 4,
+      "name": "Rohit Sharma",
+      "imageUrl": "images/players/rohit_sharma.jpg",
+      "difficulty": "easy",
+      "country": "India"
+    },
+    {
+      "id": 5,
+      "name": "Pat Cummins",
+      "imageUrl": "images/players/pat_cummins.jpg",
+      "difficulty": "easy",
+      "country": "Australia"
+    },
+    {
+      "id": 6,
+      "name": "Babar Azam",
+      "imageUrl": "images/players/babar_azam.jpg",
+      "difficulty": "easy",
+      "country": "Pakistan"
+    },
+    {
+      "id": 7,
+      "name": "Kagiso Rabada",
+      "imageUrl": "images/players/kagiso_rabada.jpg",
+      "difficulty": "easy",
+      "country": "South Africa"
+    },
+    {
+      "id": 8,
+      "name": "Kane Williamson",
+      "imageUrl": "images/players/kane_williamson.jpg",
+      "difficulty": "medium",
+      "country": "New Zealand"
+    },
+    {
+      "id": 9,
+      "name": "Jasprit Bumrah",
+      "imageUrl": "images/players/jasprit_bumrah.jpg",
+      "difficulty": "medium",
+      "country": "India"
+    },
+    {
+      "id": 10,
+      "name": "Mitchell Starc",
+      "imageUrl": "images/players/mitchell_starc.jpg",
+      "difficulty": "medium",
+      "country": "Australia"
+    },
+    {
+      "id": 11,
+      "name": "Rashid Khan",
+      "imageUrl": "images/players/rashid_khan.jpg",
+      "difficulty": "hard",
+      "country": "Afghanistan"
+    },
+    {
+      "id": 12,
+      "name": "Quinton de Kock",
+      "imageUrl": "images/players/quinton_de_kock.jpg",
+      "difficulty": "medium",
+      "country": "South Africa"
+    },
+    {
+  "id": 13,
+  "name": "Rohit Sharma",
+  "imageUrl": "images/players/rohit_sharma.jpg",
+  "difficulty": "easy",
+  "country": "India"
+},
+{
+  "id": 14,
+  "name": "Joe Root",
+  "imageUrl": "images/players/joe_root.jpg",
+  "difficulty": "easy",
+  "country": "England"
+},
+{
+  "id": 15,
+  "name": "KL Rahul",
+  "imageUrl": "images/players/kl_rahul.jpg",
+  "difficulty": "medium",
+  "country": "India"
+},
+{
+  "id": 16,
+  "name": "Shubman Gill",
+  "imageUrl": "images/players/shubhman_gill.jpg",
+  "difficulty": "medium",
+  "country": "India"
+},
+{
+  "id": 17,
+  "name": "Marnus Labuschagne",
+  "imageUrl": "images/players/mar_lab.jpg",
+  "difficulty": "medium",
+  "country": "Australia"
+},
+{
+  "id": 18,
+  "name": "Trent Boult",
+  "imageUrl": "images/players/trent.jpg",
+  "difficulty": "medium",
+  "country": "New Zealand"
+},
+{
+  "id": 19,
+  "name": "Jos Buttler",
+  "imageUrl": "images/players/jos.jpg",
+  "difficulty": "medium",
+  "country": "England"
+},
+{
+  "id": 20,
+  "name": "Shaheen Afridi",
+  "imageUrl": "images/players/shaheem.jpg",
+  "difficulty": "medium",
+  "country": "Pakistan"
+},
+{
+  "id": 21,
+  "name": "Ajaz Patel",
+  "imageUrl": "images/players/ajaz.jpg",
+  "difficulty": "hard",
+  "country": "New Zealand"
+},
+{
+  "id": 22,
+  "name": "Mohammad Rizwan",
+  "imageUrl": "images/players/rizwan.jpg",
+  "difficulty": "hard",
+  "country": "Pakistan"
+},
+{
+  "id": 23,
+  "name": "Rassie van der Dussan",
+  "imageUrl": "images/players/rassie.jpg",
+  "difficulty": "hard",
+  "country": "South Africa"
+},
+{
+  "id": 24,
+  "name": "Dhananjaya de Silva",
+  "imageUrl": "images/players/dhananjaya.jpg",
+  "difficulty": "hard",
+  "country": "Sri Lanka"
+},
+{
+  "id": 25,
+  "name": "Mark Wood",
+  "imageUrl": "images/players/mark_wood.jpg",
+  "difficulty": "hard",
+  "country": "England"
+},
+{
+  "id": 26,
+  "name": "Devon Conway",
+  "imageUrl": "images/players/devon.jpg",
+  "difficulty": "hard",
+  "country": "New Zealand"
+},
+{
+  "id": 27,
+  "name": "Aiden Markram",
+  "imageUrl": "images/players/aiden.jpg",
+  "difficulty": "hard",
+  "country": "South Africa"
+},
+{
+  "id": 28,
+  "name": "Litton Das",
+  "imageUrl": "images/players/litton.jpg",
+  "difficulty": "hard",
+  "country": "Bangladesh"
+},
+{
+  "id": 29,
+  "name": "David Warner",
+  "imageUrl": "images/players/warner.jpg",
+  "difficulty": "easy",
+  "country": "Australia"
+},
+{
+  "id": 30,
+  "name": "Hardik Pandya",
+  "imageUrl": "images/players/pandya.jpg",
+  "difficulty": "easy",
+  "country": "India"
+},
+{
+  "id": 31,
+  "name": "Glenn Maxwell",
+  "imageUrl": "images/players/maxwell.jpg",
+  "difficulty": "easy",
+  "country": "Australia"
+},
+{
+  "id": 32,
+  "name": "Andre Russell",
+  "imageUrl": "images/players/russell.jpg",
+  "difficulty": "easy",
+  "country": "West Indies"
+},
+{
+  "id": 33,
+  "name": "Ravindra Jadeja",
+  "imageUrl": "images/players/jadeja.jpg",
+  "difficulty": "medium",
+  "country": "India"
+},
+{
+  "id": 34,
+  "name": "Sam Curran",
+  "imageUrl": "images/players/curran.jpg",
+  "difficulty": "medium",
+  "country": "England"
+},
+{
+  "id": 35,
+  "name": "Temba Bavuma",
+  "imageUrl": "images/players/bavuma.jpg",
+  "difficulty": "medium",
+  "country": "South Africa"
+},
+{
+  "id": 36,
+  "name": "Shakib Al Hasan",
+  "imageUrl": "images/players/shakib.jpg",
+  "difficulty": "medium",
+  "country": "Bangladesh"
+},
+{
+  "id": 37,
+  "name": "Kusal Mendis",
+  "imageUrl": "images/players/mendis.jpg",
+  "difficulty": "hard",
+  "country": "Sri Lanka"
+},
+{
+  "id": 38,
+  "name": "Ish Sodhi",
+  "imageUrl": "images/players/sodhi.jpg",
+  "difficulty": "hard",
+  "country": "New Zealand"
+},
+{
+  "id": 39,
+  "name": "Taskin Ahmed",
+  "imageUrl": "images/players/taskin.jpg",
+  "difficulty": "hard",
+  "country": "Bangladesh"
+},
+{
+  "id": 40,
+  "name": "Kyle Mayers",
+  "imageUrl": "images/players/mayers.jpg",
+  "difficulty": "hard",
+  "country": "West Indies"
+}
+  ]
+}
