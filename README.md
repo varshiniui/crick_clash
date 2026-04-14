@@ -7,7 +7,7 @@ This project was developed within a short time frame to explore building a compl
 ---
 
 ## 🌐 Live Demo
-🔗 https://your-netlify-link-here
+🔗 https://crickclash.netlify.app/
 
 ---
 
