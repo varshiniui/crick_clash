@@ -1,76 +1,93 @@
-# Cricket Quiz Web App
+# CrickClash 🏏
 
-An interactive cricket quiz game built using Flutter, where users guess player names based on images.
+An image-based cricket player guessing game built with Flutter — pick a difficulty, identify players from photos, and test your cricket knowledge.
 
-This project was developed within a short time frame to explore building a complete, end-to-end application — from UI design to deployment.
-
----
-
-## Live Demo
-🔗 https://crickclash.netlify.app/
+🔗 **Live Demo:** [crickclash.netlify.app](https://crickclash.netlify.app)
 
 ---
 
 ## Features
 
--  Multiple difficulty levels (Easy, Medium, Hard)  
--  Image-based player guessing  
--  Timer-based questions with automatic progression on timeout  
--  Smart answer validation (handles minor spelling variations)  
--  Score tracking with instant feedback  
--  Cricket-themed UI inspired by Chennai Super Kings  
--  Web deployment for cross-platform access (Android & iOS compatible)
+- **Difficulty levels** — Easy, Medium, and Hard with separate player pools
+- **Image-based guessing** — identify players from photos, not stats
+- **Typo tolerance** — smart answer validation accepts close spelling variations
+- **Timer-based questions** — auto-progression on timeout keeps the game moving
+- **Instant feedback** — correct/wrong state shown immediately with the right answer
+- **Score tracking** — cumulative score displayed throughout and summarised at the end
+- **CSK-themed UI** — dark background with Chennai Super Kings yellow/blue palette
+
 ---
 
 ## Tech Stack
 
-- **Flutter** (UI development)  
-- **Dart**  
-- **JSON** (local data handling)  
-- **Netlify** (deployment)  
+| Layer | Technology |
+|---|---|
+| Framework | Flutter (Web) |
+| Language | Dart |
+| Data | Local JSON |
+| Answer matching | `string_similarity` package |
+| Deployment | Netlify |
 
 ---
 
 ## Project Structure
+
+```
 lib/
-┣ data/ # JSON data and data handling
-┣ models/ # Player model
-┣ screens/ # UI screens (Home, Game, Result, etc.)
-┣ widgets/ # Reusable components
-┗ theme/ # App styling
+├── data/
+│   ├── player_data.dart      # JSON loading and difficulty filtering
+│   └── players.json          # Player dataset (~40 players)
+├── models/
+│   └── player.dart           # Player model (id, name, imageUrl, difficulty, country)
+├── screens/
+│   ├── home_screen.dart      # Difficulty selection
+│   ├── game_screen.dart      # Main quiz screen
+│   └── result_screen.dart    # Final score view
+├── widgets/                  # Reusable UI components
+└── theme/
+    └── app_theme.dart        # Colors, text styles, input decoration
 
+assets/
+└── images/
+    └── players/              # Local player image assets
+```
 
 ---
 
-## Note
-
-- The current dataset includes around **40 players**, so the content is limited for now.  
-- The focus of this project was to build a fully functional application within a short time rather than a large dataset.  
-- Future improvements may include adding more players, enhancing UI, and introducing new features.
-
----
-
-## Getting Started
-
-To run this project locally:
+## Running Locally
 
 ```bash
+git clone https://github.com/varshiniuis/cricket_quiz_gift
+cd cricket_quiz_gift
 flutter pub get
-flutter run
+flutter run -d chrome
+```
 
-## Future Improvements:
+> Requires Flutter SDK ≥ 3.0.0
 
-- Add more players and expand dataset
-- Improve UI/UX design
-- Add leaderboard or scoring history
-- Introduce additional game modes
-- Improve timer UX with visual countdown indicators
+---
 
-## About the Project:
+## Current Limitations
 
-This project was built as a quick challenge to create a simple, engaging game experience around cricket knowledge.
+- Dataset covers ~40 players — content is intentionally limited given the project scope
+- Images are locally bundled assets (no CDN)
 
-It focuses on combining functionality, user interaction, and deployment into a complete working application.
-## Feedback
+---
 
-Suggestions and feedback are welcome!
+## Roadmap
+
+- [ ] Expand player dataset across more nations and eras
+- [ ] Visual countdown timer indicator
+- [ ] Leaderboard with local score history
+- [ ] Additional game modes (country guess, jersey number, etc.)
+- [ ] Mobile app packaging (Android / iOS)
+
+---
+
+## About
+
+Built as a short-form challenge to ship a complete, functional application — from UI to deployment. The goal was a working end-to-end product, not a large dataset.
+
+---
+
+*Feedback and suggestions welcome — open an issue or reach out.*
