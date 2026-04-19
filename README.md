@@ -1,4 +1,4 @@
-# 🏏 Cricket Quiz Web App
+# Cricket Quiz Web App
 
 An interactive cricket quiz game built using Flutter, where users guess player names based on images.
 
@@ -6,23 +6,23 @@ This project was developed within a short time frame to explore building a compl
 
 ---
 
-## 🌐 Live Demo
+## Live Demo
 🔗 https://crickclash.netlify.app/
 
 ---
 
-## ✨ Features
+## Features
 
-- 🎯 Multiple difficulty levels (Easy, Medium, Hard)  
-- 🖼️ Image-based player guessing  
-- ⏱️ Timer-based questions with automatic progression on timeout  
-- ✅ Smart answer validation (handles minor spelling variations)  
-- 📊 Score tracking with instant feedback  
-- 🎨 Cricket-themed UI inspired by Chennai Super Kings  
-- 🌍 Web deployment for cross-platform access (Android & iOS compatible)
+-  Multiple difficulty levels (Easy, Medium, Hard)  
+-  Image-based player guessing  
+-  Timer-based questions with automatic progression on timeout  
+-  Smart answer validation (handles minor spelling variations)  
+-  Score tracking with instant feedback  
+-  Cricket-themed UI inspired by Chennai Super Kings  
+-  Web deployment for cross-platform access (Android & iOS compatible)
 ---
 
-## 🧠 Tech Stack
+## Tech Stack
 
 - **Flutter** (UI development)  
 - **Dart**  
@@ -31,7 +31,7 @@ This project was developed within a short time frame to explore building a compl
 
 ---
 
-## 📦 Project Structure
+## Project Structure
 lib/
 ┣ data/ # JSON data and data handling
 ┣ models/ # Player model
@@ -42,7 +42,7 @@ lib/
 
 ---
 
-## ⚠️ Note
+## Note
 
 - The current dataset includes around **40 players**, so the content is limited for now.  
 - The focus of this project was to build a fully functional application within a short time rather than a large dataset.  
@@ -50,7 +50,7 @@ lib/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 To run this project locally:
 
@@ -58,7 +58,7 @@ To run this project locally:
 flutter pub get
 flutter run
 
-📌 Future Improvements:
+## Future Improvements:
 
 - Add more players and expand dataset
 - Improve UI/UX design
@@ -66,12 +66,11 @@ flutter run
 - Introduce additional game modes
 - Improve timer UX with visual countdown indicators
 
-💡 About the Project:
+## About the Project:
 
 This project was built as a quick challenge to create a simple, engaging game experience around cricket knowledge.
 
 It focuses on combining functionality, user interaction, and deployment into a complete working application.
-
-📬 Feedback
+## Feedback
 
 Suggestions and feedback are welcome!
